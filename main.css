@@ -1,0 +1,39 @@
+/*Google Font Link*/
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap');
+
+
+body {
+    background-color: #198754;
+    font-family: 'Antic Didone', serif;
+    color: rgba(248, 248, 248, 0.75);
+}
+
+header {
+    background-color: #215B36;
+}
+
+h1 {
+    color: #ffc107;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+section {
+    background-color: #183f26;
+}
+
+footer {
+    background-color: #215B36;
+}
