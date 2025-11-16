@@ -2,8 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap');
 
+/* Structural Styles */
+
+/* footer, nav, section {
+    display: block;
+} */
+
+/* Typographic Styles */
 
 body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
     background-color: #198754;
     font-family: 'Antic Didone', serif;
     color: rgba(248, 248, 248, 0.75);
@@ -11,29 +21,152 @@ body {
 
 header {
     background-color: #215B36;
+    /*color: #ffc107;*/
+    /*color: rgba(251, 251, 251, 0.75);*/
+    color: #E6E6D8;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 0;
+    border-bottom: 0.5px solid rgba(251, 251, 251, 0.75);
+    padding-bottom: 5px;
+}
+
+header, h1 {
+    margin: 0;
+    padding: 5px 0;
+}
+
+header, nav {
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    color: #ffc107;
     font-family: 'Playfair Display', serif;
 }
 
 h2 {
     font-family: 'Playfair Display', serif;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+    margin-top: 0;
 }
 
 ol {
     list-style-type: lower-roman;
 }
 
+nav {
+    font-family: 'Playfair Display', serif;
+    background-color: #215B36;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
 nav ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0;
+    display: inline-block;
+    font-size: small;
+    font-weight: 400;
+    letter-spacing:4px;
+    color: rgba(248, 248, 248, 0.75);
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #ffc107;
+}
+
+p {
+    margin: 0;
+    padding: 10px;
 }
 
 section {
-    background-color: #183f26;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+section * {
+    margin-top: 0;
+}
+
+#home {
+    background-color:#183f26;
+    padding: 20px;
+    overflow: auto;
+    margin-bottom: 0;
+}
+
+#about {
+    background-color:#183f26;
+    padding: 20px;
+    overflow: auto;
+    margin-bottom: 0;
+}
+
+#about ol {
+    list-style-type: lower-roman;
+}
+
+#school {
+    background-color:#183f26;
+    padding: 20px;
+    overflow: auto;
+    margin-bottom: 0;
+}
+
+#school ol {
+    list-style: square;
+}
+
+.box {
+    padding: 20px;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+#leftColumn img {
+    float:right;
+    max-width: 100%;
+    display: block;
+    height: 150px;
+}
+
+#rightColumn img {
+    max-width: 100%;
+    height: 150px;
+    display: block;
+}
+
+
+a {
+    color: #ffc107;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+a:hover {
+    color: #ffe207f4;
 }
 
 footer {
     background-color: #215B36;
+    margin-top: 0;
+    clear: left;
+    text-align: right;
 }
